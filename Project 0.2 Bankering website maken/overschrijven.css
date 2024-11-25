@@ -1,0 +1,67 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header en navigatiebalk */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #f4a261;
+  }
+  
+  .active {
+    color: #f4a261;
+    border-bottom: 2px solid #f4a261;
+  }
+  
+  /* Inhoud en secties */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #content {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  header {
+    text-align: center;
+  }
+  
